@@ -1,0 +1,39 @@
+<web-app>
+  <servlet>
+    <servlet-name>First</servlet-name>
+    <servlet-class>AnoopRESTWebService.team.FirstQuery</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>First</servlet-name>
+    <url-pattern>/q1</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>second</servlet-name>
+    <servlet-class>AnoopRESTWebService.team.secondQuery</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>second</servlet-name>
+    <url-pattern>/q2</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>third</servlet-name>
+    <servlet-class>AnoopRESTWebService.team.thirdQuery</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>third</servlet-name>
+    <url-pattern>/q3</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>fourth</servlet-name>
+    <servlet-class>AnoopRESTWebService.team.fourthQuery</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>fourth</servlet-name>
+    <url-pattern>/q4</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
